@@ -1,4 +1,3 @@
-/**
 package com.devsuperior.movieflix.tests.web.it;
 
 import static org.springframework.security.test.web.servlet.request.SecurityMockMvcRequestPostProcessors.httpBasic;
@@ -126,4 +125,3 @@ public class GenreResourceIT {
 		return jsonParser.parseMap(resultString).get("access_token").toString();
 	}	
 }
-**/
